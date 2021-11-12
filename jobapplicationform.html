@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="externaljobapplication.css">
+<title>
+Job application form
+</title>
+</head>
+<body>
+ <div class="formLayout">
+<H1>iDaTos Job Application Form</H1>
+<BR>
+<FORM METHOD="post" ACTION=mailto:sthalma@kabarak.ac.ke>
+<B>Position Applied for:</B> <INPUT type="text" name="position"
+size="30" autofocus>
+
+<BR>
+
+Name:
+<INPUT type="text" name="firstname" size="30"
+maxlength="100">
+
+Nationality:
+<INPUT type="text" name="nationality" size="30"><BR>
+
+Date of Birth:
+<INPUT id="dob" name="dob" type = "date"><BR>
+
+Address:<BR>
+<TEXTAREA name="address" cols="30" rows="2"></TEXTAREA><BR>
+
+Telephone:
+<INPUT type="tel" name="phone" size="30" maxlength="30" required>
+
+Email:
+<INPUT type="email" name="email" size="30" maxlength="30"
+required /><BR>
+
+<BR>
+
+<B><h4>Educational History And Qualifications</h4></B><BR>
+<i><b>write your educational history here<>/b</i><br>
+<TEXTAREA  rows="6" cols="70"></TEXTAREA>
+
+<B><h4><u>Work Experience</u><h4></B><BR>
+<i><b>Write your Work experience/employment/training in terms of employer history :</i></b><br>
+<TEXTAREA name="emphistory" rows="6" cols="70"></TEXTAREA><BR>
+<B>Personal Statement:</B><BR>
+<TEXTAREA name="statement" rows="6"
+cols="70"></TEXTAREA><BR><BR>
+<BR>
+<B>YEARS OF WORK EXPERIENCE:</B><BR>
+<input type="range" min="0" max="10" step="1" value="0">
+<BR>
+<h5><u><i><b>REFEREES</u></b></i></h5>
+<B>Referee Details:</B><BR><BR>
+ name:
+<INPUT type="text" name="firstname1" size="30"> <BR><BR>
+ Occupation:
+<INPUT type="text" name="occ1" size="30"><BR><BR>
+ Relationship:
+<INPUT type="text" name="rel1" size="20"><BR><BR> 
+Address:
+<TEXTAREA name="address1" rows="4" cols="30"></TEXTAREA><BR><BR>
+Telephone:
+<INPUT type="tel" name="phone1" size="30" required> <BR><BR>
+Email:
+<INPUT type="email" name="email1" size="30"  required><BR><BR>
+<hr>
+
+<B>Referee Details:</B><BR><BR>
+ name:
+<INPUT type="text" name="firstname1" size="30"> <BR><BR>
+ Occupation:
+<INPUT type="text" name="occ1" size="30"><BR><BR>
+ Relationship:
+<INPUT type="text" name="rel1" size="20"><BR><BR> 
+Address:
+<TEXTAREA name="address1" rows="4" cols="30"></TEXTAREA><BR><BR>
+Telephone:
+<INPUT type="tel" name="phone1" size="30" required> <BR><BR>
+Email:
+<INPUT type="email" name="email1" size="30"  required><BR><BR>
+
+
+<INPUT type="submit" name="Submit" value="Submit application form">
+
+<INPUT type="reset" name="reset" value="Reset form">
+</FORM>
+</div>
+</BODY>
+</html>
